@@ -1,0 +1,112 @@
+<!--By Regan Benner | rbenenr5051@conestogac.on.ca-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home</title>
+</head>
+<body class="home">
+
+    <header>
+        <h2>Winter Wonderland</h2>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="gallery.html">Gallery</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+                <!-- add sub menu here -->
+                <ul>
+                    <li><a href="">Menu</li></a>
+                    <li><a href="">Team</li></a>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Stunning Views Resorts</h1>
+        <p>
+            Welcome to our beautiful resort location where the views are breathtaking and has plenty of activities that you can do outdoors in winters. 
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tempore doloribus velit, iste facere vitae debitis delectus autem ducimus quam totam, assumenda, ullam esse animi aperiam quae porro aliquam quia.
+        </p>
+        <video controls autoplay loop muted poster="">
+            <source src="videos/pexels-maksim-goncharenok-9871024.mp4">
+            <p>Sorry, your browser does not support video.</p>
+        </video>
+    </main>
+    <aside>
+        <h2>
+            Quick Contact
+        </h2>
+        
+        <!-- add form here -->
+        <form action="process-form" method="post">
+                <div class="field">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="First Last" required>
+                </div>
+                <div class="field">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="example@email.com" required>
+                </div>
+                <div class="field">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="123-123-1234" required>
+                </div>
+                <br>
+                <div class="field">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="7" cols="50" placeholder="Type your message here"></textarea>
+                <div class="submit"> 
+                    <button type="submit">Submit</button> 
+                </div>
+        </form>
+<div>
+        <table>
+            <thead>
+              <tr>
+                <th>Room Type</th>
+                <th>Prices</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2 King Beds</td>
+                <td>$399</td>
+              </tr>
+               <tr>
+                <td>2 Queen Beds</td>
+                <td>$299</td>
+              </tr>
+               <tr>
+                <td>1 King Bed</td>
+                <td>$199</td>
+              </tr>
+               <tr>
+                <td>1 Queen Bed</td>
+                <td>$149</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+    </aside>
+    <footer>
+        <p>
+            &copy; Copyright 2021. Conestoga College
+        </p>
+    </footer>
+    
+</body>
+</html>
